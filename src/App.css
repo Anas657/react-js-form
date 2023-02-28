@@ -1,0 +1,60 @@
+#banner{
+height: 300px;
+background: rgb(90, 145, 218);
+font-size: 40px;
+display: flex;
+color: #fff;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.form {
+  width: 400px; 
+  background: rgb(216, 206, 206);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+
+}
+.form-group {
+  margin-bottom: 6px;
+  
+}
+
+.form-group label {
+display: block;
+margin-bottom: 6px;
+}
+
+.form-group input {
+width: 100%;
+height: 35px;
+border: solid 1px #ddd;
+border-radius: 40px;
+}
+
+button {
+width: 100%;
+background: rgb(47, 74, 154);
+color: #ddd;
+height: 45px;
+border-radius: 100px;
+border: none;
+}
+
+button:disabled {
+  opacity: 0.4;
+}
+.Invalid{
+font-size: 14px;
+color: red;
+}
